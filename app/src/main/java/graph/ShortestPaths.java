@@ -2,6 +2,8 @@ package graph;
 
 /*
  * Nicole Swierstra
+ * 7/18
+ * Implements dijkstra's algorithm
  */
 
 import heap.Heap;
