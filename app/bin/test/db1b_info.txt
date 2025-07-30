@@ -1,0 +1,12 @@
+The DB1BParser parses a CSV file from the Bureau of Transportation Statistics'
+Origin and Destination Survey dataset, available from the BTS website:
+
+    https://transtats.bts.gov/Tables.asp?DB_ID=125
+
+Download a csv file from the DB1BCoupon dataset and extract it in this
+directory. You can either check the "Prezipped File" box, or you can select the
+specific columns that the DB1BParser expects.  
+
+Then, run your ShortestPaths program with the db1b fileType and the csv
+filename.  The dataset is large, so it may take a few seconds to run Dijkstra
+on the whole graph!

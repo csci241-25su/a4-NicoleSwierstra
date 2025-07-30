@@ -1,0 +1,5 @@
+YUL YOW 94 // montreal -> ottawa
+YOW YYZ 226 // ottawa -> toronto
+YYZ YYC 1675 // toronto -> calgary
+YYC YVR 428 // calgary -> vancouver
+YVR YUL 2295 // vancouver -> montreal
