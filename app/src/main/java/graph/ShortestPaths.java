@@ -75,6 +75,7 @@ public class ShortestPaths {
      * has been called. */
     public LinkedList<Node> shortestPath(Node destination) {
         PathData pd = paths.get(destination);
+        if(pd == null) return null;
         LinkedList<Node> path = new LinkedList<Node>();
         path.add(destination);
         while(pd.previous != null) {
